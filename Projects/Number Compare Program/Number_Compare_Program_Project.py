@@ -1,3 +1,8 @@
+# This is a workable Number Comparison Tool. It can :
+#   - It will ask user to input 2 random numbers
+#   - Then it will start comparing both.
+#   - After few seconds, it will give the result.
+
 import time
 
 time.sleep(5)
