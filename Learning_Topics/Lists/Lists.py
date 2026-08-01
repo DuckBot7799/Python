@@ -10,8 +10,9 @@ print(group2[-3])
 
 
 
-thislist = ["apple", "banana", "cherry", "kiwi", "mango"]
-if "cherry" in thislist:
-    print("Yes, cherry is available")
+thislist = ["apple", "banana", "cherry", "kiwi", "mango", 123, 5.2]
+b = "berry"
+if b in thislist:
+    print(f"Yes, {b} is available")
 else:
-    print("No, cherry is not available")
+    print(f"No, {b} is not available")
