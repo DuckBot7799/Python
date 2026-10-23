@@ -1,5 +1,9 @@
 # If-Else & Elif basic conditional statement.
 
+# The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+#
+# The elif keyword allows you to check multiple expressions for True and execute a block of code as soon as one of the conditions evaluates to True.
+
 import time
 
 time.sleep(1)
