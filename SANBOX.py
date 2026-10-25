@@ -1,2 +1,2 @@
-for letter in "CAT":
-    print(letter)
+for fruit in ["Apple", "Mango", "Banana"]:
+    print("I like", fruit)
