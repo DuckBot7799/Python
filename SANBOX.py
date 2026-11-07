@@ -1,6 +1,8 @@
-total = 0
+def calculate():
+    x = 15
+    y = 5
+    return x + y
 
-for number in range(1, 4):
-    total += number
+answer = calculate()
 
-print(total)
+print(answer * 2)
