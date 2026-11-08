@@ -1,7 +1,7 @@
 #Default Parameter Values
 #You can assign default values to parameters. If the function is called without an argument, it uses the default value:
 
-def my_function(name="friend"):
+def my_function(name="Default Friend!"):
 	print("Hello", name)
 
 
