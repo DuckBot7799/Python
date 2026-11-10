@@ -1,9 +1,9 @@
 def mylocal1():
-	x = "Jane"
+	x = 10
 
 	def mylocal2():
 		nonlocal x
-		x = "HELLO"
+		x = 90
 
 	mylocal2()
 	return x
