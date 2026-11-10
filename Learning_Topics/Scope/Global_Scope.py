@@ -5,13 +5,12 @@
 
 #A variable created outside of a function is global and can be used by anyone:
 
-x = 300
+a = 500
 
 
-def myfunc():
-	print(x)
+def myglobal():
+	print(a)
+	return
 
 
-myfunc()
-
-print(x)
+myglobal()
