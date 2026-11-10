@@ -1,8 +1,7 @@
-def calculate():
-    x = 15
-    y = 5
-    return x + y
+def function(**boy):
+	print("That boy's first name is " + boy["first"] + ". His last name is " + boy["last"])
 
-answer = calculate()
 
-print(answer * 2)
+function(first="Gavin", last="Doe")
+
+
