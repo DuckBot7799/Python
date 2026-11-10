@@ -15,7 +15,7 @@ def my_scope():
 	sleep(2)
 	print("Processing...")
 	sleep(1.5)
-	print("It may take a while to add, because this system relies on legacy threading...")
+	print("It may take a while to add, because this system relies on Legacy Single-Threading...")
 	sleep(1.5)
 	print("Here it goes!..")
 	sleep(1)
